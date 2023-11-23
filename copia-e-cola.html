@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferência PIX</title>
+    <link rel="stylesheet" href="css/copia-e-cola.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <form id="cadastroForm" onsubmit="return validarFormulario();">
+            <label for="nomeCompleto">Cole o código abaixo:</label>
+            <input type="text" id="nomeCompleto" name="nomeCompleto" required>
+            <p></p>
+            <div class="button">
+                <a href="copia-e-cola-valor.html">
+                    <img src="botoes/PROXIMO.png" alt="pix" width="200" height="auto" onclick="return validarFormulario();">
+                </a>
+                <p></p>
+            </div>
+            <div class="button back-button">
+                <a href="pix.html">
+                    <img src="botoes/VOLTAR.png" alt="Voltar" width="200" height="auto">
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="script/copia-e-cola.js"></script> 
+</body>
+</html>

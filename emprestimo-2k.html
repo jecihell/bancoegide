@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Opções de Parcelamento - Banco Égide</title>
+    <link rel="stylesheet" href="css/emprestimo-2k.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <h1>Opções de Parcelamento</h1>
+        <h2>Escolha o número de parcelas:</h2>
+        <select id="parcelas">
+            <option value="1">1 x</option>
+            <option value="2">2 x</option>
+            <option value="3">3 x</option>
+            <option value="4">4 x</option>
+            <option value="5">5 x</option>
+            <option value="6">6 x</option>
+            <option value="7">7 x</option>
+            <option value="8">8 x</option>
+            <option value="9">9 x</option>
+            <option value="10">10 x</option>
+            <option value="11">11 x</option>
+            <option value="12">12 x</option>
+        </select>
+        <button id="calcular" onclick="calcularParcelamento()">Calcular</button>
+        <p></p>
+        <div id="resultado"></div>
+        <div id="parcelasResultado"></div>
+
+        <div class="button">
+            <a href="emprestimo-finalizado.html">
+                <img src="botoes/CONTRATAR.png" alt="Prosseguir" width="200" height="auto">
+            </a>
+        </div>
+
+        <div class="button back-button">
+            <a href="emprestimos.html">
+                <img src="botoes/VOLTAR.png" alt="Voltar para a página inicial" width="200" height="auto">
+            </a>
+        </div>
+    </div>
+    <script src="script/emprestimo-2k.js"></script> 
+</body>
+</html>

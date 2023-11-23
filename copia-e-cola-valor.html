@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferência PIX</title>
+    <link rel="stylesheet" href="css/copia-e-cola-valor.css">  
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <form id="cadastroForm">
+            <h2>Confirmar Informações</h2>
+
+            <label for="nomeCompleto"><b>Nome do recebedor:</b></label>
+            <label for="nomeCompleto">Marcos Pereira</label>
+            <p></p>
+
+            <label for="valorTransferencia"><b>Valor da Transferência:</b></label>
+            <label for="valorTransferencia">R$ 10.000,00</label>
+            <p></p>
+
+            <label for="senha"><b>Digite a Senha:</b></label>
+            <input type="password" id="senha" name="senha" required>
+            <p></p>
+
+            <div class="button">
+                <a href="#" onclick="verificarSenha();" id="fazerPixButton">
+                    <img src="botoes/PROXIMO.png" alt="pix" width="200" height="auto">
+                </a>
+                <p></p>
+            </div>
+            <div class="button back-button">
+                <a href="copia-e-cola.html">
+                    <img src="botoes/VOLTAR.png" alt="Voltar" width="200" height="auto">
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="script/copia-e-cola-valor.js"></script> 
+</body>
+</html>

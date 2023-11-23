@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">   
+</head>
+<body>
+    <div class="header">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <h1>Banco Égide</h1>
+    </div>
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="text" id="loginUsername" placeholder="Usuário" required>
+        <input type="password" id="loginPassword" placeholder="Senha" required>
+        <P></P>
+        <a href="#" onclick="login()">
+            <img src="botoes/ENTRAR.png" alt="Entrar" width="160" height="auto">
+        </a>
+    </form>
+
+    <h2>Novo por aqui?</h2>
+    <a href="cadastro.html"><img src="botoes/CADASTRE-SE.png" alt="CopiaCola" width="160" height="auto"></a>
+
+    <div id="message"></div>
+    <script src="script/login.js"></script> 
+</body>
+</html>

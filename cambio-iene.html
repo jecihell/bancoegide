@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comprar Dólar - Banco Égide</title>
+    <link rel="stylesheet" href="css/cambio.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <h1>Comprar IENE</h1>
+        
+        <label for="valor">Digite o Valor (Em Reais):</label>
+        <input type="text" id="valor" name="valor" required value="R$">
+        <button id="simular-button" class="button-simular">SIMULAR</button>
+        <p id="resultado"></p>
+        <p></p>
+
+        <div class="button" id="contratar-button" style="display: none;">
+            <a href="cambio-moeda-finalizado.html">
+                <img src="botoes/CONTRATAR.png" alt="Prosseguir" width="200" height="auto">
+            </a>
+        </div>
+
+        <div class="button back-button">
+            <a href="cambio.html">
+                <img src="botoes/VOLTAR.png" alt="Home" width="200" height="auto">
+            </a>
+        </div>
+    </div>
+    <script src="script/cambio-iene.js"></script>
+</body>
+</html>

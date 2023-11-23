@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'DIN Medium';
+    src: url(fonts/DIN\ Medium.ttf);
+}
+
+.profile{
+    
+    justify-content: center;
+    max-height: 200px;
+    max-width: 400px;
+    display: flex;
+    background-color: #FFDE59;
+}
+
+.foto{
+    max-width: 100px;
+    padding: 5px;
+    flex: 1;
+}
+
+.name{
+    flex: 1;
+    padding: 10px;
+    max-height: 50px;
+    align-items: flex-start;
+    display: flex;
+}
+
+
+.nome_usuario{
+    font-size: 20px;
+    font-family: 'DIN Medium';
+    font-weight: lighter;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFDE59;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFDE59;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px; 
+    height: auto;
+}
+
+.button-sair {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; 
+    height: auto;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'DIN Medium';
+}
+
+h1 {
+    font-family: 'DIN Medium';
+}
+
+h2 {
+    font-family: 'DIN Medium';
+}
+#saldo {
+    font-family: 'DIN Medium';
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+.olho {
+    display: block;
+    margin: 0 auto;
+    width: 15px; 
+    height: auto;
+
+}
+
+.dinheiro input {
+    border: none;
+    background: none;
+    width: auto; 
+    font-size: 10px; 
+    text-align: left; 
+    margin-left: 5px;
+    outline: none; 
+}
+

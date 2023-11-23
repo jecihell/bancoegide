@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Banco Égide</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo-edige.png" alt="Banco Égide Logo" class="logo" width="150px" height="150px" style="display: block; margin: 0 auto;">
+        <h2 style="text-align: center;">Bem-vindo ao Banco Égide</h2>
+
+    <div class="profile">
+        <div class="profile-picture">
+            <img src="images/foto2.jpg" class="foto">
+        </div>
+        
+        <div class="name">
+                <h1 class="nome_usuario">Olá, João José da Silva</h1>
+        </div>
+    </div>
+
+    <div class="dinheiro">
+        <button onclick="toggleSaldo()"><img src="images/aberto.png" alt="" class="olho"></button>
+        <input type="text" id="saldo" value="1500" oninput="formatarDinheiro(this)">
+    </div>
+
+
+        <div class="row">
+            <a href="pix.html">
+                <div class="button">
+                    <img src="images/pix.png" alt="PIX">
+                    <p style="text-align: center;">PIX</p>
+                </div>
+            </a>
+            <a href="cartoes.html">
+                <div class="button">
+                    <img src="images/cartao.png" alt="Meus Cartões">
+                    <p style="text-align: center;">Meus Cartões</p>
+                </div>
+            </a>
+            <a href="poupanca.html">
+            <div class="button">
+                <img src="images/poupanca.png" alt="Poupança">
+                <p style="text-align: center;">Poupança</p>
+            </div>
+            </a>    
+        </div>
+        <div class="row">
+            <a href="cambio.html">
+            <div class="button">
+                <img src="images/cambio.png" alt="Câmbio">
+                <p style="text-align: center;">Câmbio</p>
+            </div>
+            </a>
+            <a href="investimentos.html">
+            <div class="button">
+                <img src="images/investimento.png" alt="Investimentos">
+                <p style="text-align: center;">Investimentos</p>
+            </div>
+            </a>
+            <a href="emprestimos.html">
+            <div class="button">
+                <img src="images/emprestimo.png" alt="Empréstimos">
+                <p style="text-align: center;">Empréstimos</p>
+            </div>
+            </a>
+        </div>
+        <div class="button-sair">
+            <a href="login.html"><img src="botoes/SAIR.png" alt="Sair" width="200"></a>
+        </div>
+    </div>
+    <script src="script/home.js"></script>
+</body>
+</html>
